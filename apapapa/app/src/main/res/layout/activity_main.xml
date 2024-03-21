@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="剪刀石頭布"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Space
+                android:layout_width="194dp"
+                android:layout_height="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:text="電腦"
+                    android:textAlignment="center"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="201dp"
+                    android:layout_height="match_parent"
+                    android:text="玩家"
+                    android:textAlignment="center"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="201dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCom"
+                    android:layout_width="205dp"
+                    android:layout_height="300dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="wait player"
+                    android:textAlignment="center"
+                    android:textDirection="locale"
+                    android:textSize="34sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imbtnscissor"
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/scissor"
+                        android:contentDescription="@string/scissors"
+                        android:scaleType="fitCenter"
+                        tools:src="@drawable/scissor" />
+
+                    <ImageButton
+                        android:id="@+id/imbtnrock"
+                        android:layout_width="118dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/rock"
+                        android:contentDescription="@string/rock"
+                        android:scaleType="fitCenter"
+                        tools:src="@drawable/rock" />
+
+                    <ImageButton
+                        android:id="@+id/imbtnpaper"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/paper"
+                        android:contentDescription="@string/paper"
+                        android:scaleType="fitCenter"
+                        tools:src="@drawable/paper" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/txtresult"
+                android:layout_width="312dp"
+                android:layout_height="match_parent"
+                android:text="play choose button"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
